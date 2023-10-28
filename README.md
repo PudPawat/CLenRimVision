@@ -13,6 +13,3 @@ wait for update
 ## Result 
 ### edge detector result 
 ![](https://github.com/PudPawat/contact_lens_project/blob/main/picture/edge%20result.PNG)
-### center detector (Yolov5)
-![](https://github.com/PudPawat/contact_lens_project/blob/main/picture/center%20result1.jpg)
-![](https://github.com/PudPawat/contact_lens_project/blob/main/picture/center%20result2.jpg)
