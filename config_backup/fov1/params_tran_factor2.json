@@ -1,0 +1,1 @@
+{"sharp": 1, "thresh": 14, "erode": [5, 0], "dilate": [1, 0], "canny": [10, 10], "circle": [1, 28, 462, 679]}

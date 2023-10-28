@@ -1,0 +1,52 @@
+{
+  "basic": {
+    "source": "data/takeing/all_fov1",
+    "path_params": "config/params_contact_lens.json",
+    "path_params0": "config/monocam/params.json",
+    "path_kernel0": "config/monocam/params.json",
+    "path_kernel": "config/params_kernel_otsu.json",
+    "write_box": "config/params_plot_label.json",
+    "resize_factor": 1,
+    "waitkey": 1,
+    "debug": "False",
+    "yolo_result": "False",
+    "web_cam": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 30
+    }
+  },
+  "threshold": {
+    "area": 450,
+    "min_length": 50,
+    "area_contour_circle": [1000,500000],
+    "range_radius": [1190,1300]
+
+  },
+  "contact_lens": {
+    "select_edge_contour": "biggest",
+    "filter_size": 30,
+    "area": 0.9,
+    "area_lower": 0.3,
+    "area_upper": 0.99,
+    "lower_bound": 50,
+    "upper_bound": 50,
+    "al4": {
+      "delta_pix": 1,
+      "lower_bound": 50,
+      "upper_bound": 50
+    }
+  },
+  "algorithm": 5,
+  "test": {
+    "loop_test": "True",
+    "n_steps": 7,
+    "step": 0.1,
+    "pix_step": 1
+  },
+  "al5": {
+    "standard_thickness":0,
+    "extended": 8,
+    "shrink": 8
+  }
+}

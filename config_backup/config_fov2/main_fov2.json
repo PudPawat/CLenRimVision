@@ -1,0 +1,57 @@
+{
+  "basic": {
+    "source": "data/new company/burr/FOV2",
+    "path_params0": "config_fov2/new company1/params.json",
+    "path_kernel0": "config_fov2/new company1/params.json",
+    "path_kernel": "config/params_kernel_otsu.json",
+    "write_box": "config/params_plot_label.json",
+    "resize_factor": 1,
+    "waitkey": 1,
+    "debug": "False",
+    "yolo_result": "False",
+    "web_cam": {
+    "width": 1440,
+    "height": 1080,
+    "fps": 30
+    }
+  },
+  "threshold": {
+    "area": 450,
+    "min_length": 50,
+    "angle_right": 45,
+    "angle_left": 135,
+    "area_contour_circle": [5000,150000],
+    "range_radius": [2050,2800]
+  },
+  "contact_lens": {
+    "select_edge_contour": "biggest",
+    "filter_size": 50,
+    "area": 0.9,
+    "area_lower": 0.2,
+    "area_upper": 0.5,
+    "lower_bound": 30,
+    "upper_bound": 30,
+    "al4": {
+      "delta_pix": 1,
+      "lower_bound": 30,
+      "upper_bound": 30
+    }
+  },
+  "algorithm": 3,
+  "test": {
+    "loop_test": "True",
+    "n_steps": 4,
+    "step": 0.05,
+    "pix_step": 1
+  },
+    "al5": {
+    "standard_thickness":0,
+    "extended": 5,
+    "shrink": 6
+  },
+  "al6": {
+    "standard_thickness":0,
+    "extended": 5,
+    "shrink": 6
+  }
+}

@@ -1,0 +1,14 @@
+1 : average (1-lower bound) < area_detect < average(1+upper bound)
+average calculate by average in range of sd 
+
+2 : average (1-lower bound) < area_detect < average(1+upper bound)
+average calculate by area - lower bound box +  upper bound box 
+average will the be the same in each region 
+
+3 : average (1-lower bound) < area_detect < average(1+upper bound)
+average calculate by area - lower bound box +  upper bound box 
+average will the be the same in each region also average calculate by average in range of sd 
+
+4 : average (1-lower bound) < X < average(1+upper bound)
+average (1-lower bound) < Y < average(1+upper bound)
+USING : bounding box of contour NOT area as first algorithm

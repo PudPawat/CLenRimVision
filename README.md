@@ -1,2 +1,2 @@
-# CLenRimVision
-contact lens defect detection on rim area 
+# contact_lens_project
+contact_lens defect detection  

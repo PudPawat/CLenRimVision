@@ -1,0 +1,1 @@
+{"weights": "weights/scratch_.pt", "source": "0", "img_size": 640, "conf_thres": 0.7, "iou_thres": 0.5, "device": "0", "view_img": "store_true", "save_txt": "store_true", "save_conf": "store_true", "classes": 0, "agnostic_nms": "store_true", "update": "store_true", "project": "runs/detect", "name": "exp", "exist_ok": "store_true", "command": "True", "augment": "store_true"}
